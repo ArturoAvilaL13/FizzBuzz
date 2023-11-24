@@ -7,7 +7,11 @@ public class Main {
 		int cantidadNumeros = 100;
 		
 		for (int i=0;i<=cantidadNumeros;i++) {
-			System.out.println("N. "+i);
+			
+			if(i%3==0)
+				System.out.println("Fizz");
+			else
+				System.out.println("N. "+i);
 		}
 	}
 
